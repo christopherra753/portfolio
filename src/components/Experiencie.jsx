@@ -27,19 +27,6 @@ function Experiencie () {
               ]
             }
           />
-          <ExperiencieItem
-            direction='right'
-            duration='08/23 - 11/23'
-            position='Desarrollador Frontend Junior'
-            entity='Municipalidad Ditrital'
-            responsabilities={
-              [
-                'Realizar la parte de UX/UI del módulo de inventario de su intranet.',
-                'Refactorizar el código de otros módulos para una mejor escalabilidad.',
-                'Refactorizar el código de otros módulos para una mejor escalabilidad.'
-              ]
-            }
-          />
 
         </div>
       </div>

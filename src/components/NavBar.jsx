@@ -29,6 +29,12 @@ function NavBar () {
           <NavBarLink setMenu={setMenu} to='contacto' label='Contacto' />
         </ul>
         <div className='flex items-center gap-2'>
+          <a
+            href='/curriculum.pdf'
+            download='curriculum'
+            className='bg-orange-500 text-sm sm:text-base text-white px-4 py-1 rounded'
+          >Descargar CV
+          </a>
           <button onClick={handleTheme} className='group relative rounded-lg p-1'>
             <RiMoonLine className='block dark:hidden text-3xl' />
             <RiSunLine className='hidden dark:block text-3xl text-white' />
